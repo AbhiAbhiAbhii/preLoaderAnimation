@@ -1,0 +1,165 @@
+/* animation PreLoader */
+
+
+
+.wrap {
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  height: 100vh;
+  width: 100vw;
+  background: rgb(210, 215, 214);
+  overflow: hidden;
+}
+
+  .mainCircle{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin: auto;
+  }
+  
+  .circle {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgb(52, 169, 232);
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin: auto;
+    transform: translateY(100px);
+    /* animation: circle4 3s linear;
+    animation-delay: 1.4s; */
+  }
+  
+  @keyframes circle4 {
+    0% {
+      transform: rotate(0deg)translateY(100px);
+    }
+  
+    50% {
+      transform: rotate(180deg)translateY(100px);
+    }
+  
+    100% {
+      transform: rotate(180deg)translateY(100px);
+    }
+    
+  }
+  
+  
+  .circle2 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgb(38, 206, 114);
+    height: 200%;
+    width: 100%;
+    border-radius: 50%;
+    overflow: hidden;
+    margin: auto;
+    transform: translateY(-100px);
+    /* animation: circle 3s linear;
+    z-index: 100;
+    transition: all .5s ease; */
+  }
+  
+  @keyframes circle {
+    0% {
+      transform: rotate(0deg)translateY(-100px);
+      height: 20px;
+      width: 20px;
+    }
+  
+    90% {
+      transform: rotate(360deg)translateY(-100px);
+      height: 20px;
+      width: 20px;
+    }
+
+    100% {
+      transform: rotate(360deg)translateY(-100px);
+      height: 200%;
+      width: 100%;
+    }
+  }
+  
+  .circle3 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgb(167, 37, 227);
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin: auto;
+    transform: translateX(100px);
+  
+    /* animation: circle2 4.4s linear;
+    animation-delay: .7s; */
+  }
+  
+  @keyframes circle2 {
+    0% {
+      transform: rotate(0deg)translateX(100px);
+    }
+  
+    50% {
+      transform: rotate(270deg)translateX(100px);
+    }
+  
+    100% {
+      transform: rotate(270deg)translateX(100px);
+    }
+  }
+  
+  .circle4 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgb(67, 173, 152);
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin: auto;
+    transform: translateX(-100px);
+    /* animation: circle3 1.5s linear ;
+    animation-delay: 2.2s; */
+  }
+  
+  
+  @keyframes circle3 {
+    0% {
+      transform: rotate(0deg)translatex(-100px);
+    }
+  
+    50% {
+      transform: rotate(90deg)translatex(-100px);
+    }
+  
+    100% {
+      transform: rotate(90deg)translatex(-100px);
+    }
+  }
+  
+  
+  /*  */
