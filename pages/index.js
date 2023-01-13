@@ -26,7 +26,7 @@ export default function Home() {
 
         setTimeout(() => {
             setLoading(false)
-        },5320)
+        },9000)
 
     }, [])
 
@@ -54,7 +54,7 @@ export default function Home() {
 
         loading ?
 
-        <PreLoader  noOfCircles={4} />
+        <PreLoader  noOfCircles={7} />
 
         :
         <div className={ styles.wrapper } ref={ contain }>
